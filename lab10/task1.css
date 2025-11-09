@@ -1,0 +1,21 @@
+  .oldClass
+    {
+        color: rgb(255, 0, 0);
+    }
+    .newClass
+    { 
+        color: rgb(255, 0, 208); font-weight: bold;
+    }
+    button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(220, 118, 118);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
