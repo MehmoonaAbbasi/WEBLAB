@@ -1,0 +1,29 @@
+
+    /* === Example 1: Text Hover Transition === */
+    .word {
+      color: blue;
+      transition: 0.5s;
+    }
+    .word:hover {
+      color: red;
+      letter-spacing: 5px;
+    }
+
+   
+    /* === Example 2: Text Animation (Rainbow Effect) === */
+    @keyframes rainbow {
+      0% {color: red;}
+      25% {color: orange;}
+      50% {color: green;}
+      75% {color: blue;}
+      100% {color: purple;}
+    }
+    .rainbow {
+      animation: rainbow  infinite;
+    }
+    @keyframes slide {
+    0%   { transform: translateX(0%); }
+    33%  { transform: translateX(-100%); } 
+    66%  { transform: translateX(-200%); } 
+    100% { transform: translateX(0%);}
+}

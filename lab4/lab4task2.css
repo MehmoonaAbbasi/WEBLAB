@@ -1,0 +1,18 @@
+.Green{
+    width : 80px;
+    height : 80px;
+    border-radius: 50px;
+    background-color: rgb(20, 220, 63);
+}
+.Red{
+    width : 80px;
+    height : 80px;
+    border-radius: 50px;
+    background-color: rgb(149, 8, 8);
+}
+.Yellow{
+    width : 80px;
+    height : 80px;
+    border-radius: 50px;
+    background-color: rgb(233, 218, 12);
+}
