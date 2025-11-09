@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TechHub Registration</title>
+</head>
+<body>
+
+    <h1>Register at TechHub</h1>
+
+    <form>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" 
+               pattern=".{8,}" 
+               title="Password must be at least 8 characters long" 
+               required><br>
+
+        <label for="repeatPassword">Repeat Password:</label><br>
+        <input type="password" id="repeatPassword" name="repeatPassword" required>
+<br>
+      
+        <label for="agreement">I agree to the <a href="#" target="_blank">Terms & Privacy</a></label><br>
+
+        <input type="submit" value="Register" />
+    </form>
+
+    <p>Already registered? <a href="lab2task3.html">Sign in</a></p>
+
+   
+
+</body>
+</html>
